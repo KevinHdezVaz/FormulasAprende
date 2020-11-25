@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".TercerFragmento.Prefijos">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:id="@+id/my_toolbar"
+        app:title="Prefijos Importantes"
+
+        app:titleTextColor="@color/colorPrimary"
+        android:layout_height="?actionBarSize">
+
+    </androidx.appcompat.widget.Toolbar>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/xd"
+
+                android:adjustViewBounds="true"
+                android:src="@drawable/prefijos"
+                android:layout_height="match_parent" />
+
+
+
+</LinearLayout>
+ </LinearLayout>

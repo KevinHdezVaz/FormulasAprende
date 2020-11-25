@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:background="@android:color/white"
+
+android:layout_height="match_parent"
+    >
+<androidx.appcompat.widget.Toolbar
+    android:id="@+id/my_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/colorPrimary"
+    app:title="Interes Simple"
+    app:titleTextColor="@android:color/white">
+</androidx.appcompat.widget.Toolbar>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/my_toolbar"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:padding="10dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="El interés simple es aquél interés que se produce al invertir o prestar una cantidad de dinero durante un periodo de tiempo."   ></TextView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:src="@drawable/interes_simple">
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="▪ El capital inicial (C), es la cantidad de dinero que se invierte o se presta.
+Este también es conocido por «principal» o «valor actual», y representa la base sobre la cual se genera el interés."
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="▪ La tasa de interés (i), es la cantidad de interés expresado en tanto por ciento por unidad de tiempo. La tasa de interés se expresa generalmente en año, aunque puede expresarse en semanas, quincenas, meses, etc."  ></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="▪ El tiempo (t), es el lapso transcurrido entre el momento de la inversión o préstamo y el retiro o pago. El tiempo puede estar expresado en cualquier unidad, sin embargo, para efectos de cálculo, se debe establecer en las mismas unidades de tiempo que la tasa de interés."></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:padding="10dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/black"
+            android:text="Calcular la capital final.\nAl capital inicial le sumamos el interés generado de la operación obtenemos el capital final o monto."></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="130dp"                android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:src="@drawable/interes1_1">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:padding="10dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/black"
+            android:text="Calcular el tiempo.\nCon frecuencia necesitamos saber cuanto tiempo tiene que estar un dinero invertido para que produzca un determinado interés."></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="130dp"                android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:src="@drawable/interes1_2"></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:padding="10dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/black"
+            android:text="Calcular la tasa de interés."></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="130dp"                android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:src="@drawable/interes1_3"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:padding="10dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/black"
+            android:text="Calcular capital inicial o valor presente.\nPara calcular el capital inicial de una inversión o un préstamo cuando no sabemos su importe, utilizamos la siguiente fórmula."></TextView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/interes1_4">
+        </ImageView>
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+
+    android:layout_height="match_parent"
+    tools:context=".Matematicas_children.Algebra_children.binomioNewton_children">
+
+     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="@string/fuerza_centripeta"
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+android:text="Cualquier movimiento sobre un camino curvo, representa un movimiento acelerado, y por tanto requiere una fuerza dirigida hacia el centro de la curvatura del camino. \n\nEsta fuerza se llama fuerza centrípeta, que significa fuerza buscando el centro. La fuerza tiene la magnitud"
+
+                android:layout_height="wrap_content"
+                ></TextView>
+            <ImageView
+
+                android:id="@+id/fuerzacen"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:src="@drawable/fuerza_centripeta">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="17dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:layout_marginRight="10dp"
+
+                android:layout_gravity="center"
+    android:textColor="@android:color/black"
+        android:text="DONDE.
+
+\nm: masa de la partícula.
+
+\nv2/r: Es la velocidad centripeta"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content"
+                ></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

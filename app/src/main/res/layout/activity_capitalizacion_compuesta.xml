@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="Capitalización Compuesta"
+        app:titleTextColor="@android:color/white">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        android:layout_marginTop="13dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+
+                android:padding="10dp"
+                android:text="La caracteristica fundamental de la Ley Financiera de Capitalizacion Compuesta es que los interes son productivos , es decir, se acumulan al capital para producir nuevos intereses."
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+
+android:text="Supongamos que se invierte en capitalización compuesta un capital Co a u tanto de interés unitario i durante 1,2,3... n años. El interés producido en cada periodo es el resultado de multiplicar el tanto unitario de interés i por el capital existente al comienzo de cada periodo."
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/capitalizacioncom"
+                android:adjustViewBounds="true"
+                android:src="@drawable/capitalizacion_compuesta"></ImageView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+    android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:text="Calcular Capital Inicial"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/capitalizacion2"
+                android:layout_marginRight="5dp"
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/compuesta1"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:text="Calcular el Tiempo"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="15dp"
+                android:src="@drawable/compuesta_tiempo"></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:text="Calcular el tanto de Interés"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/compuesta_interes"></ImageView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

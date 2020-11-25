@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+
+    android:layout_height="match_parent"
+    >
+     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="@string/volumen_especifico"
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+android:text="Se define matemáticamente como la relación entre el volumen ocupado por una determinada cantidad de materia (un kilogramo o un gramo); en otras palabras, es el recíproco de la densidad."                android:background="@color/colorPrimaryDark"
+
+
+                android:layout_height="wrap_content"
+                ></TextView>
+            <ImageView
+
+                android:id="@+id/vols"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:src="@drawable/volumen_especifico">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:layout_marginBottom="20dp"
+android:text="La densidad señala cuánto pesa 1 mL de materia (líquida, sólida, gaseosa, o una mezcla homogénea o heterogénea), mientras que el volumen específico se refiere al volumen que ocupa 1 g (o 1 kg) de la misma. \n\nAsí, conociendo la densidad de una sustancia, basta con calcular el recíproco para determinar su volumen específico."
+                android:layout_height="wrap_content"
+                ></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

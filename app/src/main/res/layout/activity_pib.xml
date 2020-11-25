@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="PIB "
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:padding="10dp"
+                android:text="Existen tres métodos principales para dar con la fórmula exacta del PIB, y vamos a verlos con detenimiento a continuación.
+ "
+                android:textColor="#292624"
+                android:textSize="18dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:padding="10dp"
+        android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+                android:text="1. A través de los gastos."></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:textSize="17dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+                android:text="Este método se basa en el concepto de demanda agregada, que se refiere a la suma de los gastos producido por diferentes personas y organizaciones de un mismo territorio para comprar bienes y servicios a precio de mercado. Su fórmula de cálculo sería la siguiente:"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/back"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:text=" PIB = C + I + G + (X – I)
+
+"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+        android:textStyle="bold"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                android:text="DONDE:"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:padding="10dp"
+                android:text="▪C de Consumo: los gastos realizados por las familias sin objetivo de lucrarse o generar rendimiento."
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:padding="10dp"
+                android:text="▪I de Inversión: los gastos realizados por personas con objetivo de lucrarse y/o generar rendimiento."
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:padding="10dp"
+                android:text="▪G de Gasto Público: la suma de todos los gastos de la Administración Pública."
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:padding="10dp"
+                android:text="▪X de Exportaciones: todos los productos o servicios vendidos fuera del país."
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:padding="10dp"
+                android:text="▪I de Importaciones: todas las mercancías o servicios que se contratan del exterior.
+"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:padding="10dp"
+android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+                android:text="2. A través de las rentas
+"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="Este método se basa en la suma de todas la rentas de las personas de un mismo país. Saber cómo se calcula el PIB con este método es posible siguiendo la siguiente fórmula:"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+
+                android:text="PIB = Remuneración de los trabajadores + Excedente Bruto de Explotación + (Impuestos – Subvenciones)
+
+
+"               android:layout_margin="10dp"
+                android:background="@drawable/back"
+                android:padding="10dp"
+                android:layout_gravity="center"
+android:layout_marginTop="10dp"                android:textColor="@android:color/black"
+                android:textSize="20dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:padding="10dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+                android:text="3. Método del valor añadido
+"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="Este método sirve, fundamentalmente, para hacer el cálculo del PIB usando la producción y basándose en el total de ventas u ofertas realizado por agentes productores de un mismo territorio geográfico."
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+                android:gravity="center"
+                android:background="@drawable/back"
+                android:layout_gravity="center"
+                android:text="PIB = VAB + (Impuestos – Subvenciones)"
+                android:layout_margin="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="40dp"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

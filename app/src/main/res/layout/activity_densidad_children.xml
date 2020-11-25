@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+
+    android:layout_height="match_parent"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="@string/densidad"
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+
+android:text="Una de las propiedades de los sólidos, líquidos y gases, es la medida de compactibilidad del material, es decir, la densidad.\nLa densidad
+ρ, de un material se define como su masa por unidad de volumen. \nSi el material es homogéneo, como el hielo o el hierro,
+su densidad es la misma en todo el material."                android:background="@color/colorPrimaryDark"
+
+
+                android:layout_height="wrap_content"
+                ></TextView>
+            <ImageView
+
+                android:id="@+id/densos"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:src="@drawable/densidad">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="20dp"
+android:text="Las unidades de la densidad en el SI son el kilogramo por metro cúbico (kg/m3
+). \nSi la
+masa m de un material ocupa un volumen V, la densidad ρ es la formula que se encuentra arriba.:"
+                android:layout_height="wrap_content"
+                ></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

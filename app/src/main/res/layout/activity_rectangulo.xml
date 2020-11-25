@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".AreayVolumen.Rectangulo">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:id="@+id/my_toolbar"
+        app:title="@string/rectangulo"
+        app:titleTextColor="@android:color/white"
+        android:layout_height="?actionBarSize">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_marginTop="260dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+
+        android:background="@color/inactive_dots" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_below="@id/my_toolbar"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/rectangulo2"
+        android:scaleType="centerInside"
+        android:layout_height="170dp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/divider"
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        android:layout_margin="30dp"
+        android:id="@+id/cardview1"
+
+        android:elevation="5dp"
+        app:cardCornerRadius="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_below="@id/divider"
+            android:textStyle="bold"
+            android:layout_margin="4dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:elevation="20dp"
+            android:shadowColor="@color/holi"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INGRESA LOS VALORES" />
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="180dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/editBase2"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editBase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Base:"
+                android:gravity="center"
+                android:inputType="numberDecimal"
+                android:textSize="23dp"
+                android:ems="10"
+
+                android:textColorHint="@color/holi"
+                android:maxLength="10"
+                android:singleLine="true" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="180dp"
+            android:layout_marginTop="110dp"
+            android:id="@+id/editAltura2"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editAltura"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/altura"
+                android:inputType="numberDecimal"
+                android:gravity="center"
+                android:textSize="23dp"
+                android:ems="10"
+                android:textColorHint="@color/holi"
+                android:maxLength="10"
+                android:singleLine="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnCalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:gravity="center"
+            android:layout_marginTop="85dp"
+            android:background="@color/holi"
+            android:text="@string/calcular"
+            android:elevation="20dp"
+
+            android:textColor="@android:color/white" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_below="@id/cardview1"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        app:cardCornerRadius="15dp"
+
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_marginLeft="40dp"
+
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_height="match_parent"
+            android:text="AREA:" />
+
+        <com.aldoapps.autoformatedittext.AutoFormatEditText
+            android:id="@+id/editTextRes"
+            android:enabled="false"
+            android:layout_marginLeft="115dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+
+            android:focusable="false"
+            android:hint="0"
+
+            android:maxLength="10"
+            android:textColor="@android:color/black"
+            android:textSize="22dp"
+            />
+    </androidx.cardview.widget.CardView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/area2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+android:layout_alignParentLeft="true"
+        app:elevation="10dp"
+        app:backgroundTint="#00838F"
+        app:fabSize="auto"
+        android:src="@drawable/ic_info_black_24dp">
+
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+</RelativeLayout>

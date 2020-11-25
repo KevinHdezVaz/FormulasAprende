@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+
+    android:layout_height="match_parent"
+    >
+     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="@string/numero_reynolds"
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:padding="5dp"
+
+android:text="Es una cantidad numérica adimensional que establece la relación entre las fuerzas inerciales y las fuerzas viscosas de un fluido en movimiento."
+                android:textSize="18dp"></TextView>
+
+            <ImageView
+
+                android:id="@+id/reynol"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:src="@drawable/numero_reynol">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="5dp"
+                android:layout_marginBottom="20dp"
+
+android:text="El número de Reynolds sirve para determinar el comportamiento de un fluido, es decir, para determinar si el  flujo de un fluido es laminar o turbulento. El flujo es laminar cuando las fuerzas viscosas, que se oponen al movimiento del fluido, son las que dominan y el fluido se mueve con velocidad suficientemente pequeña y en trayectoria rectilínea."                android:layout_height="wrap_content"
+                ></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

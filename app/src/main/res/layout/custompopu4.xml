@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="25dp"
+        app:cardCornerRadius="30dp"
+        android:layout_centerInParent="true"
+        android:layout_height="600dp"
+        >
+        <ImageView
+            android:layout_gravity="right"
+            android:id="@+id/cerrarVentana"
+            android:layout_width="30dp"
+            android:src="@drawable/ic_close_black_24dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="7dp"
+            android:elevation="5dp"
+
+            android:layout_height="30dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/arriba"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:id="@+id/texto"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+
+                android:textSize="15dp"
+                android:text="iFORMULAS - TODO EN UNO (PRO)"
+                />
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_marginTop="50dp"
+    android:layout_height="wrap_content">
+            <ImageView
+                 android:layout_width="120dp"
+android:layout_gravity="center"
+                android:src="@drawable/logo_versionpro"
+                android:layout_height="120dp"
+                />
+</LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/kota2"
+            android:orientation="vertical"
+
+            android:layout_marginTop="180dp"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+            <TextView
+                android:textSize="16dp"
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_height="wrap_content"
+                 android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_bold"
+android:id="@+id/tata"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:textAlignment="center"
+
+
+                android:text="@string/proo"
+                />
+            </ScrollView>
+             <Button
+                 android:id="@+id/botonPRO"
+                 android:layout_width="match_parent"
+                 android:layout_margin="30dp"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="30dp"
+                 android:elevation="10dp"
+                 android:backgroundTint="@color/colorGreen1"
+
+                 android:textStyle="bold"
+                 android:background="@drawable/btn_redondo"
+                 android:text="PROXIMAMENTE"
+                 android:textColor="@android:color/white" />
+
+         </LinearLayout>
+
+
+
+     </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

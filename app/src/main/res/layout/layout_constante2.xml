@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/numeros"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:background="#d60a733d">
+
+
+        <LinearLayout
+            android:id="@+id/lesvi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+
+                android:id="@+id/num1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/back2"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="setValue"
+                android:text="@string/one"
+
+
+                android:tag="@string/one"
+                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/back2"
+
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="setValue"
+                android:text="@string/two"
+                android:tag="@string/two"                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/num3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/back2"
+                android:clickable="true"
+
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="setValue"
+                android:text="@string/three"
+                android:tag="@string/three"                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/clear"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="borrarTodo"
+                android:text="@string/clear"
+                android:tag="clear"                android:textSize="15dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/abajo"
+            android:layout_below="@+id/lesvi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/num4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/back2"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="setValue"
+                android:text="@string/four"
+                android:tag="@string/four"                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/num5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/back2"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="setValue"
+                android:text="@string/five"
+                android:tag="@string/five"                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/num6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/back2"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="setValue"
+                android:text="@string/six"
+                android:tag="@string/six"                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+
+
+
+
+            <Button
+                android:id="@+id/enter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="punto"
+                android:text="@string/submit"
+                android:tag="enter"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/abajo2"
+            android:layout_below="@+id/abajo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/num7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/back2"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="setValue"
+                android:text="@string/seven"
+                android:tag="@string/seven"                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/num8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/back2"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="setValue"
+                android:text="@string/eight"
+                android:tag="@string/eight"                android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/num9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/back2"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                android:onClick="setValue"
+                android:text="@string/nine"
+                android:tag="@string/nine"                 android:textColor="@android:color/white"
+                android:textSize="30dp" />
+
+
+
+
+            <Button
+                android:id="@+id/num0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:background="@drawable/back2"
+                android:foreground="?attr/selectableItemBackground"
+                android:textColor="@android:color/white"
+                android:onClick="setValue"
+                android:text="@string/defaultNum"
+                android:tag="@string/defaultNum"
+                android:textSize="30dp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

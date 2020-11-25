@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root"
+    android:weightSum="5"
+    android:layout_height="match_parent"
+    tools:context=".Activitis.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            app:cardCornerRadius="10dp"
+            android:elevation="20dp"
+             app:cardBackgroundColor="#F4F5F4"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                 android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@drawable/mate"
+                ></ImageView>
+
+
+
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="150dp"
+
+                android:layout_height="match_parent">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/Animacion"
+                    app:lottie_autoPlay="true"
+                    android:layout_gravity="center"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/welcome"
+                    ></com.airbnb.lottie.LottieAnimationView>
+                <TextView
+
+                    android:id="@+id/titulo"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content"
+                    android:background="#D4676864"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_gravity="center_vertical"
+                    android:padding="13dp"
+                    android:text="- iFORMULA -"
+                    android:textColor="@android:color/white"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/introText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="@font/quicksand_medium"
+                    android:text="“Nunca consideres el estudio como una obligación, sino como una oportunidad para penetrar \nen el bello y maravilloso mundo del saber”."
+                    android:textColor="#000"
+                    android:layout_marginTop="90dp"
+                    android:gravity="center"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+
+
+
+
+            <!--
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fabEstrella"
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:layout_marginBottom="5dp"
+                            android:elevation="10dp"
+                            app:rippleColor="@color/md_teal_600"
+                            app:fabSize="auto"
+                            android:backgroundTint="@android:color/white"
+                            android:src="@drawable/ic_shop_black_24dp"
+
+                            />
+                        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                            android:id="@+id/fabSticker"
+                            android:layout_width="match_parent"
+                            android:layout_marginRight="20dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|bottom"
+                            android:layout_marginBottom="5dp"
+                            android:elevation="10dp"
+                            app:rippleColor="@color/md_teal_600"
+                            app:fabSize="auto"
+                            android:backgroundTint="@android:color/white"
+                            android:src="@drawable/ic_touch_app_black_24dp"
+                            />
+                            -->
+        </androidx.cardview.widget.CardView>
+
+
+</ScrollView>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+
+
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:backgroundTint="#0F7C8A"
+            android:background="#0F7C8A"
+            android:fontFamily="@font/quicksand_bold"
+            android:clickable="true"
+            android:foreground="?selectableItemBackground"
+            android:onClick="loadSlides"
+            android:padding="20dp"
+             android:textAlignment="center"
+        android:id="@+id/BtnJuegos"
+
+            android:text="@string/como_funciona"
+            android:textColor="#ffff"
+            android:textSize="15dp"></Button>
+
+
+
+
+        <Button
+
+
+            android:id="@+id/btnMenuPrincipal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:fontFamily="@font/quicksand_bold"
+
+            android:layout_weight="1"
+            android:background="#F0268B5B"
+            android:clickable="true"
+            android:backgroundTint="#F0268B5B"
+            android:foreground="?selectableItemBackground"
+            android:onClick="cargarInicio"
+            android:padding="20dp"
+            android:text="@string/iniciar"
+              android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="15dp"></Button>
+
+        <!--#F0268B5B-->
+            </LinearLayout>
+
+
+        </LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+
+    android:layout_height="match_parent"
+    tools:context=".Matematicas_children.Algebra_children.binomioNewton_children">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="@string/movimiento_parabolico"
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+
+
+android:text="El movimiento parabólico, también conocido como tiro oblicuo, es un ejemplo de composición de movimientos en dos dimensiones: un m.r.u. en el eje horizontal y un m.r.u.a. en el eje vertical."
+                android:layout_height="wrap_content"
+                ></TextView>
+            <ImageView
+
+                android:id="@+id/paramesta"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:src="@drawable/mov_parabolico">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="10dp"
+
+        android:textColor="@android:color/black"
+
+android:text="Este movimiento es el propio de los proyectiles. En el eje X el cuerpo se desplaza a una velocidad constante
+V0x (m.r.u) y en el eje Y con una aceleración constante provocada por la gravedad (m.r.u.a). "                android:layout_height="wrap_content"
+                ></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

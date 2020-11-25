@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="@string/alcanos"
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+
+            android:orientation="vertical">
+
+
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/alcano"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="30dp"
+        android:id="@+id/alca1"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/alqueno"
+                android:adjustViewBounds="true"
+                android:id="@+id/alque1" android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/alquino"
+                android:adjustViewBounds="true"
+    android:id="@+id/alqui1"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

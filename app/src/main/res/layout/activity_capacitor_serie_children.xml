@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:background="@android:color/white"
+
+android:layout_height="match_parent"
+tools:context=".Matematicas_children.Algebra_children.binomioNewton_children">
+
+ <androidx.appcompat.widget.Toolbar
+    android:id="@+id/my_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/colorPrimary"
+    app:title="@string/capacitor_serie"
+    app:titleTextColor="@android:color/white">
+
+</androidx.appcompat.widget.Toolbar>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/my_toolbar"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:text="La conexión de capacitores (condensador eléctrico) en serie significa que dos o más capacitores están conectados en una línea donde, la placa positiva de un capacitor está conectada a la placa negativa del próximo capacitor. \nLa corriente de carga (IC) que fluye a través de los capacitores será la misma ya que únicamente tiene una ruta a seguir, esto se puede interpretar como una entrada y una salida."
+            android:background="@color/colorPrimaryDark"
+
+
+            android:layout_height="wrap_content"
+            ></TextView>
+        <ImageView
+
+            android:id="@+id/cserie"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:src="@drawable/capacitores_en_serie">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"
+            android:layout_marginBottom="20dp"
+            android:text=" Cuando los capacitores están conectados en serie, la carga y la corriente son las mismas en todos los capacitores."
+
+            android:layout_height="wrap_content"
+            ></TextView>
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>

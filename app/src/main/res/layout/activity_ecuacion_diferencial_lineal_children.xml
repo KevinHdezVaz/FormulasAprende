@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="Ecuación diferencial lineal"
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="18dp"
+                android:padding="10dp"
+                android:text="Una ecuación diferencial de primer orden que puede escribirse en la forma:
+"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/diferencial_lineal"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:id="@+id/dif1"
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Donde :\nP(x) y Q(x) son funciones reales, se llama ecuación diferencial lineal.\nSi f(x) ≡ 0, la ecuación se dice homogénea.\n\nEstá Dada por:"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:textColor="#292624"
+                ></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/diferencial_lineal2"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:id="@+id/dif2"
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Para resolver las ecuaciones lineales no homogéneas se procede como sigue. Multiplicamos la ecuación
+por la expresión:"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:textColor="#292624"
+                ></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lineal3"
+                android:adjustViewBounds="true"
+
+
+                android:layout_marginRight="140dp"
+
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lineal7"
+
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lineal4"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                ></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="o, lo que es lo mismo,"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:textColor="#292624"
+                ></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lineal5"
+                android:adjustViewBounds="true"
+                 android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Integrando ambos miembros resulta"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:textColor="#292624"
+                ></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/lineal6"
+                android:adjustViewBounds="true"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/ultimaF"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

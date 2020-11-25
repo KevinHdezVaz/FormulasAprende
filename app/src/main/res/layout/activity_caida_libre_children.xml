@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+
+    android:layout_height="match_parent"
+    tools:context=".Matematicas_children.Algebra_children.binomioNewton_children">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="@string/caida_libre"
+
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+        android:text="Se le llama caída libre al movimiento que se debe únicamente a la influencia de la gravedad.
+
+"
+
+                android:layout_height="wrap_content"
+                ></TextView>
+            <ImageView
+
+                android:id="@+id/caidase"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:src="@drawable/cailda_libre">
+
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="18dp"
+                android:layout_marginLeft="10dp"
+                android:padding="10dp"
+                android:layout_marginBottom="30dp"
+                android:textColor="@android:color/black"
+                android:layout_marginRight="10dp"
+                 android:text="Todos los cuerpos con este tipo de movimiento tienen una aceleración dirigida hacia abajo cuyo valor depende del lugar en el que se encuentren. En la Tierra este valor es de aproximadamente 9.8 m/s2, es decir que los cuerpos dejados en caída libre aumentan su velocidad (hacia abajo) en 9.8 m/s cada segundo.
+\n\nEn la caída libre no se tiene en cuenta la resistencia del aire."
+
+                android:layout_height="wrap_content"
+                ></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+     android:weightSum="5"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.TercerFragment">
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:id="@+id/chike"
+        android:layout_height="90dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_centerInParent="true"
+            android:backgroundTint="#d7d7d7"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+
+                android:fontFamily="@font/quicksand_bold"
+                android:autoSizeTextType="uniform"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/encabezado"
+                android:layout_height="match_parent" />
+</ScrollView>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/chike"
+        android:layout_weight="3"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/listaHerramientas"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

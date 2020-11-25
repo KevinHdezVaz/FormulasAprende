@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="Anualidad Simples"
+        app:titleTextColor="@android:color/white">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        android:layout_marginTop="13dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+
+                android:padding="10dp"
+                android:text="Las anualidades son un conjunto de pagos iguales que se realizan durante
+tiempo determinado y por períodos iguales. Se clasifican según sus
+características como por ejemplo el momento en que se realizan los pagos, si se
+conoce o no el fin de la anualidad, etc."
+                android:textSize="17dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:text="▪ Ciertas, vencidas e inmediatas
+
+"
+                android:background="@color/colorPrimaryDark"
+
+                android:textColor="@android:color/black"
+                android:textSize="17dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:text="En una anualidad cierta, vencida e inmediata, se conocen las fechas de pago de
+inicio a fin; los pagos se realizan al vencimiento de cada período y, al ser
+inmediata, el primer pago se realiza en el periodo inmediatamente siguiente a
+cuando se formalizó el trato."
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+
+
+            <ImageView
+                android:id="@+id/anualidad1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/anualidad_simple"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:padding="10dp"
+                android:text="DONDE:"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:padding="10dp"
+                android:text="▪R = Valor de cada pago"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:padding="10dp"
+                android:text="▪n = Número de períodos"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+
+                android:padding="10dp"
+                android:text="▪i = El interés a pagar"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="Ciertas, anticipadas e inmediatas
+"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:text="La diferencia de este tipo de anualidad y la mencionada en el punto anterior, es
+que en vez de realizarse los pagos al vencimiento, estos se realizan al inicio de
+cada periodo correspondiente.
+La fórmula para calcular el monto o valor en el momento de vencimiento es:"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/anualidad2"
+                android:layout_marginRight="5dp"
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="30dp"
+                android:src="@drawable/anualidad_simple2"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="Ciertas, diferidas y vencidas
+
+"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:layout_marginBottom="40dp"
+                android:layout_marginTop="10dp"
+                android:text="El monto de una anualidad diferida, bien sea vencida o anticipada, se calcula
+con los mismos procedimientos que los de las anualidades vencidas o
+anticipadas (mismas tasas de interés, plazo, renta, etc.), ya que durante el
+intervalo de aplazamiento no se gana interés alguno, puesto que no se entrega
+ningún pago durante el mismo.\n\nUna vez transcurrido el intervalo de aplazamiento, se debe observar
+exclusivamente si el primer pago se efectúa al final o al inicio del plazo de la
+anualidad diferida."
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+       </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

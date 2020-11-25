@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="Enfriamiento o Calentamiento de Newton"
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                   android:padding="10dp"
+                    android:text="La rapidez de cambio de la temperatura (T) de un cuerpo respecto del tiempo
+es proporcional a la diferencia entre la temperatura (Tm) del medio ambiente y la
+temperatura (T) del cuerpo."
+                 android:textColor="#292624"
+                android:textSize="18dp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/aplicaciones_newton"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="30dp"
+                android:id="@+id/calentamientoNew"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

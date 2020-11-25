@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="Tasa de Inflación"
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:padding="10dp"
+                android:text="La inflación es un concepto que muestra el aumento de los precios de los bienes y servicios de un país durante un periodo concreto. De esta forma es fundamental aprender a calcular la tasa de inflación de un territorio para valorar cuál es su situación económica. Podemos entenderlo también como la pérdida de valor del dinero, ya que si suben los precios de un país, el dinero valdrá menos.
+ "
+                android:textColor="#292624"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="La inflación se mide a través del Índice de Precios al Consumo (IPC) que se encarga de medir los precios de los elementos que conforman la cesta de la compra. Para ello se incluyen los precios de los productos básicos que incluiría una cesta de la compra con los bienes y servicios de un hogar representativo y se va midiendo mes a mes su evolución. De esta forma, se calcula el gasto necesario de un hogar mensualmente y sus variaciones.
+
+\n\nLa fórmula para el cálculo del IPC es la siguiente: "           android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/inflacion"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/inflac"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

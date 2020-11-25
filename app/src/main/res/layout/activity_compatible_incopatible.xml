@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_width="match_parent"
+    android:background="@android:color/white"
+
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="Suceso Compatible e Incompatible"
+        app:titleTextColor="@android:color/white">
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:textSize="17dp"
+                android:padding="10dp"
+android:gravity="center"
+                android:textStyle="bold"
+            android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="SUCESOS INCOMPATIBLES"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:padding="10dp"
+    android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+android:text="@string/inco1" ></TextView>
+            <ImageView
+                android:layout_width="match_parent"
+               android:layout_margin="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                 android:src="@drawable/inco">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+android:text="Ten en cuenta que la intersección de dos sucesos cuando estos son incompatibles es igual a cero: P(A∩B)=0
+">
+</TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:padding="10dp"
+                android:background="@drawable/back"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="▪Por ejemplo, en una bolsa tenemos 4 bolas: una negra, otra blanca, otra azul y otra roja. Tienes que extraer una bola, ¿cuál es la probabilidad de que sea blanca o negra?
+
+"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:padding="10dp"
+                android:textColor="@android:color/secondary_text_light"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="El suceso «sacar bola blanca» y el suceso «sacar bola negra» son dos sucesos incompatibles porque no podemos sacar una bola blanca y una negra a la vez, por tanto, la probabilidad de sacar una bola y que ésta sea blanca o negra será la suma de cada probabilidad por separado:
+
+"></TextView>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="20dp"
+                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                 android:src="@drawable/inco">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:padding="10dp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+                android:text="La probabilidad sacar una bola blanca es:
+
+"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+               android:layout_margin="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                 android:src="@drawable/inco2">
+            </ImageView>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:padding="10dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/black"
+            android:text="La probabilidad de sacar una bola negra es:
+
+"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                 android:src="@drawable/inco3">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:padding="10dp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+android:text="Por tanto, la probabilidad de sacar una bola blanca o negra es:
+
+"></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+
+                android:src="@drawable/inco4">
+            </ImageView>
+
+            <View
+                android:id="@+id/linea"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_below="@id/arriba"
+                android:layout_alignParentStart="true"
+
+                android:alpha=".5"
+
+                android:background="@android:color/holo_blue_dark">
+
+
+            </View>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="SUCESOS COMPATIBLES"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Si A y B son dos sucesos compatibles, es decir, que pueden ocurrir a la vez, entonces la probabilidad de que ocurra A o B será:
+
+" ></TextView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_margin="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/compa">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Esta vez a la suma de las probabilidades de que ocurran cada suceso por separado hay que restarle la probabilidad de que sucedan los dos sucesos a la vez
+
+">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:padding="10dp"
+                android:background="@drawable/back"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="▪Por ejemplo, calcular la probabilidad de que al lanzar un dado, el número obtenido sea par o que sea un 4.
+"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:padding="10dp"
+                android:textColor="@android:color/secondary_text_light"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+android:text="En este caso el suceso «sacar número par» y el suceso «sacar un 4» con compatibles ya que si sacamos un 4 están ocurriendo los dos sucesos a la vez.">
+</TextView>
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="17dp"
+            android:padding="10dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@android:color/black"
+            android:text="Por tanto, la probabilidad de sacar 4 o un número par la calcularemos con la fórmula:
+
+"> </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/compa">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:padding="10dp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+android:text="La probabilidad de sacar un número par es:"> </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/compa2">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:padding="10dp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+                android:text="La probabilidad de sacar un 4 es:
+
+"> </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/compa3">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:padding="10dp"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/black"
+                android:text="La probabilidad de sacar un número par y un 4 es:
+"> </TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/compa4">
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+android:text="Solo hay una posibilidad entre 6 ya que el 4 es el único número que cumple los dos sucesos a la vez.
+
+\nFinalmente, la probabilidad de de sacar un número par o 4 es:" >
+            </TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/compa5">
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="Que sustituyendo cada término por su valor nos queda:" ></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_marginBottom="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/compa6"></ImageView> </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

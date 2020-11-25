@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="Ecuación diferencial Ricatti"
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ricatti"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Si y1 es una solucion particular de la ecuacion anterior."
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:textColor="#292624"
+                ></TextView>
+
+
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ricatti2"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="Representa una familia de soluciones, donde \nv(x) satisface:"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                 android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:textColor="#292624"
+                ></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ricatti3"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="Con lo que se obtiene:"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+                android:textColor="#292624"
+                ></TextView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ricatti4"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17dp"
+                android:text="El cual es una ecuación lineal."
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:textColor="#292624"
+                ></TextView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/detalles"
+                android:textColor="@android:color/white"
+
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/colorGreen1"
+                android:foreground="?selectableItemBackground"
+                android:clickable="true"
+                android:background="@drawable/btn_redondo"
+                android:id="@+id/btnrica"
+                android:layout_marginTop="40dp"
+                android:textSize="15dp"
+                ></Button>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

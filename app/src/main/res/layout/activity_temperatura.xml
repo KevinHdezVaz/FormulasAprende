@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GridView_segundoFragment.Temperatura">
+
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:id="@+id/my_toolbar"
+        app:title="@string/Tempera"
+        app:titleTextColor="@android:color/white"
+        android:layout_height="?actionBarSize">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <include layout="@layout/numeros">
+
+    </include>
+    <View
+        android:id="@+id/linea"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/arriba"
+        android:layout_alignParentStart="true"
+
+        android:alpha=".5"
+
+        android:background="@android:color/holo_blue_dark">
+
+
+    </View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/my_toolbar"
+        android:weightSum="5"
+        android:id="@+id/arriba"
+        android:layout_height="wrap_content">
+
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_weight="2.6"
+            android:pointerIcon="top_left_diagonal_double_arrow"
+            android:layout_height="match_parent"
+            />
+
+
+        <EditText
+            android:id="@+id/numero"
+            android:hint="0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:singleLine="true"
+            android:layout_weight="2.4"
+            android:focusable="false"
+            android:ems="10"
+
+            android:gravity="left"
+            android:inputType="numberDecimal"
+            android:maxLength="10"
+            android:textColor="@color/colorPrimary"
+
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/linea"
+        android:layout_marginBottom="120dp"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/numeros"
+        android:layout_below="@+id/linea"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="3dp">
+
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+
+            <com.aldoapps.autoformatedittext.AutoFormatEditText
+                android:id="@+id/fahrenheit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:maxLength="23"
+
+                android:layout_alignStart="@+id/l1"
+                android:layout_weight="4"
+                android:ems="10"
+                android:gravity="center"
+                android:enabled="false"
+                android:focusable="false"
+                android:inputType="none"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:isDecimal="true" />
+
+            <EditText
+                android:id="@+id/editText14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:inputType="none"
+                android:text="Fahrenheit (℉)"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/l1"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+
+            <com.aldoapps.autoformatedittext.AutoFormatEditText
+                android:id="@+id/celsius"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignStart="@+id/l1"
+                android:layout_weight="4"
+                android:ems="10"
+                android:enabled="false"
+                android:maxLength="23"
+
+                android:focusable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:isDecimal="true" />
+
+            <EditText
+                android:id="@+id/lool"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:inputType="none"
+                android:text="Celsius (℃)"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/l2"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+
+            <com.aldoapps.autoformatedittext.AutoFormatEditText
+                android:id="@+id/kelvin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignStart="@+id/l1"
+                android:layout_weight="4"
+                android:ems="10"
+                android:maxLength="23"
+
+                android:enabled="false"
+                android:focusable="false"
+                android:gravity="center"
+                android:inputType="none"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                app:isDecimal="true" />
+
+            <EditText
+                android:id="@+id/cm"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:enabled="false"
+                android:focusable="false"
+                android:inputType="none"
+
+                android:text="Kelvin (K)"
+                android:textColor="@android:color/black"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

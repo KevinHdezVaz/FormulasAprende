@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="app_name">iFormula</string>
+    <string name="app_mate">Maths</string>
+    <string name="advanced_score">%1$d of %2$d</string>
+    <string name="square">%1$d\u00B2</string>
+    <string name="cube">%1$d\u00B3</string>
+    <string name="sqrt">\u221A%1$d</string>
+    <string name="cbrt">\u221B%1$d</string>
+    <string name="triple_sum">%1$d + %2$d + %3$d</string>
+    <string name="triple_sum_multiply">(%1$d + %2$d) x %3$d</string>
+    <string name="triple_sub_multiply">(%1$d - %2$d) x %3$d</string>
+    <string name="triple_sum_div">(%1$d + %2$d) / %3$d</string>
+    <string name="triple_sub_div">(%1$d - %2$d) / %3$d</string>
+    <string name="triple_sub">%1$d - %2$d - %3$d</string>
+
+    <string name="slide_1_titulo">Matemáticas, Física y más</string>
+    <string name="slide_1_desc"> Las principale </string>
+
+    <string name="slide_2_titulo">Personajes Relevantes y aportaciones</string>
+    <string name="slide_2_desc"> Aquellos cientificos, matematicos , filosofos e inventores de algunas herramientas que hoy en dia conocemos.</string>
+
+    <string name="slide_3_titulo">Interfaz amigable y intuitiva</string>
+    <string name="slide_3_desc">Aqui dfqwerwquna pinshe prueba aver como sale esta madre espero y si funcione alv </string>
+
+    <string name="slide_4_titulo">Todas las formulas en un aplicación</string>
+    <string name="slide_4_desc">kyc gei</string>
+
+    <string name="my_preference">"com.abc.com.Mypref"</string>
+    <string name="my_preference_key">"com.abc.com.MyprefKey"</string>
+
+
+    <string name="menu_principal">Main menu</string>
+
+    <!-- TODO IMPORTANTE AQUI   -->
+
+    <string name="descripcion">Main sciences that study the properties of matter and establish laws
+that explain natural phenomena. </string>
+    <string name="encabezado">Tools that allow to know more thoroughly the different sciences studied.</string>
+    <string name ="convertidor_descripcion" >Unit conversion is the transformation of the numerical value of a physical quantity and expressed in another unit of measure of the same nature.
+</string>
+    <string name="texto">Mathematics is the deductive science that is dedicated to the study of the properties of abstract entities and their relations. This means that mathematics works with numbers, symbols, geometric figures, etc.
+</string>
+
+    <string name ="quimica">Science that studies the composition and properties of matter and the transformations it undergoes without altering the elements that form it.</string>
+    <string name="calculo">It deals with the study of the increments in the variables, slopes of curves, maximum and minimum values ​​of functions and the determination of lengths, areas and volumes. It is used especially in sciences such as engineering.
+ </string>
+    <string name="fisica">Physics is responsible for analyzing the characteristics of energy, time and matter, as well as the links that lie between them.
+ </string>
+
+    <!-- Conversor -->
+    <string name ="area_km2">Square kilometer</string>
+    <string name ="area_mt2">Square meter</string>
+    <string name ="area_mill2">Square mile</string>
+    <string name ="area_ya2">Square yard</string>
+    <string name ="area_pie2">Square feet</string>
+    <string name ="area_pulg2">Square inch</string>
+    <string name ="area_ha">Hectare (ha)</string>
+    <string name ="area_acre">Acre</string>
+
+    <string name ="cons_km">Kilometer per liter</string>
+    <string name ="cons_mill">Mile per American gallon</string>
+    <string name ="cons_mill_impe">Mile per gallon (Imperial)</string>
+    <string name ="cons_titu">Fuel consumption</string>
+
+    <string name ="ene_titu">Energy</string>
+    <string name ="ene_juli">Joule</string>
+    <string name ="ene_kiloju">Kilojoule</string>
+    <string name ="ene_kiloca">Kilocaloría</string>
+    <string name ="ene_vatioHora">Watt-hour</string>
+    <string name ="ene_kilovatio">Kilowatt-hour</string>
+    <string name ="ene_btu">BTU</string>
+
+    <string name ="Electricidad">Electricity and magnetism</string>
+    <string name ="Geometría">Geometry</string>
+
+    <string name ="fre_titu">Frequency</string>
+    <string name ="fre_mega">Megahertz (MHz)</string>
+    <string name ="fre_herzio">Hertz (Hz)</string>
+    <string name ="fre_kilo">Kilohertz (kHz)</string>
+    <string name ="fre_giga">Gigahertz (GHz)</string>
+
+    <string name ="lon_titu">Longitude</string>
+    <string name ="lon_km">Kilometer (Km)</string>
+    <string name ="lon_me">Meter (m)</string>
+    <string name ="lon_cen">Centimeter (cm)</string>
+    <string name ="lon_milim">Millimeter (mm)</string>
+    <string name ="lon_deci">Decimeter (dm)</string>
+    <string name ="lon_milla">Mile (mi)</string>
+    <string name ="lon_yarda">Yard (yd)</string>
+    <string name ="lon_pulga">Inch (pulg)</string>
+    <string name ="lon_pie">Foot (´)</string>
+
+    <string name ="como_funciona">GAMES</string>
+    <string name="iniciar">START</string>
+
+    <string name ="masa_titu">Masa</string>
+    <string name ="masa_ton">Ton (t)</string>
+    <string name ="masa_kg">Kilogram (kg)</string>
+    <string name ="masa_gra">Gram (g)</string>
+    <string name ="masa_quila">Carat</string>
+    <string name ="masa_milig">Milligram (mg)</string>
+    <string name ="masa_stone">Stone (st)</string>
+    <string name ="masa_libra">Pounds(lb)</string>
+    <string name ="masa_onza">Ounce (oz)</string>
+
+    <string name = "ang_titul">Flat angle</string>
+    <string name = "ang_gracen">Degree centesimal (gon)</string>
+    <string name = "ang_grasex">Sexagesimal degree</string>
+    <string name = "ang_mil">Angular Mils</string>
+    <string name = "ang_minutoArco">Minutes of arc (arcmin)</string>
+    <string name = "ang_Radian">Radián</string>
+    <string name = "ang_segundoSexa">Second sexagesimal</string>
+
+    <string name ="pres_titu">Pressure</string>
+    <string name ="pres_atmos">Atmosphere (atm)</string>
+    <string name ="pres_bar">Bar</string>
+    <string name ="pres_megapas">Megapascal (MPa)</string>
+    <string name ="pres_pasc">Pascal (Pa)</string>
+    <string name ="pres_kilo">Kilopascal(kPa)</string>
+    <string name ="pres_mili">Millibar </string>
+    <string name ="pres_torr">Torr (torr)</string>
+
+    <string name = "probabilidad">Probability and Statistics</string>
+
+    <string name ="res_titu">Electric resistance</string>
+    <string name ="res_milio">Milliohms (mΩ)</string>
+    <string name ="res_ohmnio">Ohms (Ω)</string>
+    <string name ="res_kilo">Kiloohmios (kΩ)</string>
+    <string name ="res_mega">Megaohm (MΩ)</string>
+    <string name ="res_abo">Abohms (abΩ)</string>
+    <string name ="res_voltio">Volts per amps (V/A)</string>
+
+    <string name ="Tempera">Temperature</string>
+
+    <string name ="Menu">MENU</string>
+    <string name ="conve">CONVERTER</string>
+    <string name ="herra">TOOLS</string>
+
+    <string name ="inic">START</string>
+    <string name ="sig">NEXT</string>
+    <string name ="omit">SKIP</string>
+
+    <string name ="tabla_peri">Periodic table</string>
+    <string name ="alfabeto_griego">Greek alphabet</string>
+    <string name ="calcular_area">Calculate area and volumes</string>
+    <string name ="constantes_universale">Universal constants</string>
+
+    <string name ="mate">Mathematics</string>
+    <string name ="quimi">Chemistry</string>
+    <string name ="calcul">Calculation</string>
+    <string name ="fisic">Physics</string>
+
+    <string name ="tiempo_titu">Time</string>
+    <string name ="tiemp_deca">Decade</string>
+    <string name ="tiemp_año">Year</string>
+    <string name ="tiemp_mes">Month</string>
+    <string name ="tiemp_semana">Week</string>
+    <string name ="tiemp_dia">Day</string>
+    <string name ="tiemp_hora">Hour (hr)</string>
+    <string name ="tiemp_minu">Minute (min)</string>
+    <string name ="tiemp_seg">Second (s)</string>
+
+    <string name ="velo_titu">Velocity</string>
+    <string name ="velo_millaxh">Mile per hour (mph/h)</string>
+    <string name ="velo_piexseg">Foot per second(ft/s)</string>
+    <string name ="velo_metroxseg">Meters per second (m/s)</string>
+    <string name ="velo_kiloxhora">Kilometer per hour(km/h)</string>
+    <string name ="velo_nudo">Knots</string>
+
+    <string name ="vol_titu">Volume</string>
+    <string name ="vol_litro">Liter (l)</string>
+    <string name ="vol_milimetro">Millimeter (ml)</string>
+    <string name ="vol_galon">Gallon (gal)-US</string>
+    <string name ="vol_metro3">Cubic meter (m³)</string>
+    <string name ="vol_pie3">Cubic foot(ft³)</string>
+    <string name ="vol_pulgada3">Cubic inch</string>
+    <string name ="vol_cuartogalo">Quart</string>
+    <string name ="vol_pinta">Pinta (pt)-US</string>
+
+    <string name ="area">Area</string>
+
+    <string name ="arit">ARITHMETIC</string>
+    <string name ="geometria">GEOMETRY ANALITYC</string>
+    <string name ="algebra">ALGEBRA</string>
+    <string name ="trigonometria">TRIGONOMETRY</string>
+    <string name ="algebralineal">LINEAR ALGEBRA</string>
+
+    <string name ="mecanica">MECHANICS</string>
+    <string name ="dinamica">DYNAMICS</string>
+    <string name ="termologia">TERMOLOGY</string>
+    <string name ="optica">OPTICS</string>
+    <string name ="estatica">STATICS</string>
+    <string name ="proba">PROBABILITY AND STATISTICS</string>
+    <string name ="electricidad_mag">ELECTRICITY AND MAGNETISM</string>
+    <string name="Open">Open</string>
+    <string name="Close">close</string>
+
+    <string name ="calculo_difrencial">Differential and Integral Calculus
+</string>
+    <string name = "estequiometria">STOICHIOMETRY</string>
+    <string name = "mecanica_fluidos">FLUID MECHANICS</string>
+    <string name = "OPTICA">OPTICS</string>
+    <string name = "termodinamica">THERMODYNAMICS</string>
+    <string name= "calculo_vectorial">Vector Calculation</string>
+
+    <string name ="desarrolada">- DEVELOPED BY: Kevin Hernandez
+</string>
+    <string name="valorar">SUPPORT MEXICAN TALENT WEY
+</string>
+    <string name ="descripcion_app">
+iFormulas is one of the best in its category, from basic levels to university, all formulas in the palm of your hand and without internet connection.</string>
+
+    <string name="layout2">Conversions between different units of the international system and the English system quickly and accurately.
+</string>
+
+    <string name="layout3">The app has multiple tools that allow the student to better understand mathematics, making it easier to solve problems.
+</string>
+    <string name ="layout1">Discover the main formulas of the exact sciences that will help you to solve with the academic exercises.
+</string>
+    <string name="layout4">More than 500 formulas. It does not need internet connection and it is always in constant updates so you can enjoy everything.
+</string>
+    <string name="kota2">Ya estas listo!. Toca el Tiempo</string>
+
+    <string name="desc_4">All the formulas in an application
+</string>
+    <string name="desc_3">Different tools for the student
+</string>
+    <string name="desc_1">Mathematics, Physics and Chemistry</string>
+    <string name="desc_2">Unit converter</string>
+    <string name ="default_notification_channel_id" translatable="false">default_channel </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name ="banner_prueba">ca-app-pub-3881357943956604/2889637666</string>
+    <string name="banner_oroginal">ca-app-pub-3881357943956604/9363645708</string>
+    <string name="interstic_ori">ca-app-pub-3881357943956604/8050564037</string>
+    <string name="interstic_juego">ca-app-pub-3881357943956604/7469283569</string>
+
+    <string name ="triángulo">Triangle</string>
+    <string name ="cuadrado">Square</string>
+    <string name ="rectangulo">Rectangle</string>
+    <string name ="paralelogramo">Parallelogram</string>
+    <string name ="trapecio">Trapeze</string>
+    <string name ="rombo">Diamond</string>
+    <string name ="hexagono">Hexagon</string>
+    <string name ="circulo">Circle</string>
+    <string name ="elipse">Ellipse</string>
+    <string name ="piramide">Pyramid</string>
+    <string name ="cubo">Cube</string>
+    <string name ="cilindro">Cylinder</string>
+    <string name ="esfera">Sphere</string>
+    <string name ="cono">Cone</string>
+    <string name ="toro">Torus</string>
+
+    <string name ="baseMenor">Base Minor:</string>
+    <string name ="baseMayor">Base Major:</string>
+    <string name ="altura">Height:</string>
+    <string name ="calcular">Calculate</string>
+    <string name= "radio">Radius</string>
+    <string name ="lado">Side:</string>
+
+
+    <string name ="simbolos">Symbols of Linear Algebra</string>
+    <string name ="matriz_transpuesta">Transposed Matrix</string>
+    <string name ="regla_cramer">Cramer Rule</string>
+    <string name ="regla_sarrus">Sarrus Rule</string>
+    <string name ="matriz_cuadrada">Square Matrix</string>
+    <string name ="matriz_diagonal">Diagonal and Scalar Matrix</string>
+    <string name ="matriz_simetrica">Symmetric and antisymmetric matrix</string>
+    <string name ="traza">Trace of a Matrix </string>
+    <string name ="matriz_ortogonal">Orthogonal Matrix </string>
+
+    <string name="normal.channel.id">channel.id.notification.normal</string>
+    <string name="normal.channel.name">Oferta normal</string>
+
+    <string name = "norma_vector">Norm of a Vector
+</string>
+
+    <string name = "vector_unitario">Unit Vector</string>
+    <string name = "angulo_entre_doctores">Angle between two Vectors
+</string>
+
+
+    <string name = "formula1">F = - K ∙ (x - x0)</string>
+
+    <string name = "valorar2">SUPPORT MEXICAN TALENT</string>
+    <string name="kota">Do you like stickers? "\n" Of course you like stickers, everyone likes stickers! Download the best and newest stickers, they are over 900 free. You can too
+    Download the Whats states (Photo and Video). I know you want to download it 😼</string>
+    <string name = "vidio">Video Rewarded</string>
+
+
+    <string name = "regla3">Rule of Three Direct</string>
+    <string name = "num_mix">Mixed Number</string>
+    <string name = "potencia_fracc">Fraction Power</string>
+    <string name = "operaciones_fracc">Operations with Fractions
+</string>
+
+    <string name = "distancia_entre_dos">Distance between two points</string>
+    <string name = "punto_medio">Midpoint of the line</string>
+    <string name = "punto_pendiente">Dot / slope shape</string>
+    <string name = "distancia_punto_recta">Distance from a point to a line</string>
+    <string name = "ecuacion_general_conica">General equation of conics</string>
+    <string name = "circunferencia_centro_origen">Circumference with center in the origin</string>
+    <string name = "circunferencia_fuera_origen">Circumference with center outside the origin</string>
+    <string name = "hiperbola">Hyperbola</string>
+    <string name = "modulo_vector">Module of a vector</string>
+    <string name = "parabola_origen">Parable with vertex at the origin
+</string>
+    <string name = "parabola_fuera_origen">Parable with vertex outside the origin
+</string>
+
+
+    <string name ="angulos_c">Complementary Angles</string>
+    <string name ="angulos_s">Supplementary Angles</string>
+    <string name ="teorema_pitagora">Pythagoras theorem</string>
+    <string name ="angulos_o">Opposite Angles</string>
+    <string name ="relaciones_trigo">Trigonometry Relations</string>
+    <string name ="clasificacion_triangulos">Classification of triangles, according to their angles</string>
+    <string name ="razones_trigono">Trigonometric Reasons</string>
+    <string name ="razones_angulo">Reasons for the sum / difference angle</string>
+    <string name ="teorema_importa">Important Theorems</string>
+
+    <string name="seno">Law of Sines</string>
+    <string name="coseno">Law of Cosine</string>
+    <string name="tangente">Ley of Tangent</string>
+    <string name="anguloo">Ángles</string>
+
+
+    <string name="logaritmo">Logarithms</string>
+    <string name="suma_producto">Sums and Products
+</string>
+    <string name="limites">Limits</string>
+    <string name="derivadas">Derivadas</string>
+    <string name="derivada_funciones_log">Derivatives of LOG and EXP Functions</string>
+    <string name="derivada_trigono">Derived from Trigonometric  </string>
+    <string name="derivada_hiperbolica">Derived from Hyperbolic Functions
+</string>
+    <string name="Integrales">Integrals</string>
+    <string name="integrales_funcionnes_log">Integrals of LOG y EXP Functions
+</string>
+    <string name="integral_fracciones">Fraction Integrals
+</string>
+    <string name="integral_raiz">Integral con Raíz</string>
+    <string name="integral_trigono">Trigonometric Integrals
+</string>
+
+    <string name="angulo_dos_vectores">Angle between two vectors</string>
+    <string name="cosenos_directores">Cosine directors</string>
+    <string name="producto_escalar">Point Product or Scalar Product</string>
+    <string name="producto_vectorial">Cross product or vector product</string>
+    <string name="q_plano">Distance from a point Q to a plane</string>
+    <string name="coordenadas_cilindricas">Coordenadas Cilíndricas</string>
+    <string name="corrdenadas_esferica">Spherical Coordinates</string>
+    <string name="teorema_stokes">Stokes theorem</string>
+
+    <string name="leyes_newton">Newton laws</string>
+    <string name="ley_hooke">Hooke law</string>
+    <string name="principio_bernoulli">Bernoulli principle</string>
+    <string name="plano_inclinado">Inclined plane</string>
+    <string name="vectores">Vectors</string>
+    <string name="descomposicion_rectangular">Rectangular Decomposition</string>
+    <string name="centro_gravedad">Gravity center</string>
+    <string name="teorema_lamy">Lamy theorem</string>
+
+    <string name="ley_coulomb">Coulomb Law | Electric force</string>
+    <string name="principio_superposicion">Principle of Superposition</string>
+    <string name="campo_electrico">Electric field</string>
+    <string name="movimiento_cargainterior">Movement of Loads Inside an Electric Field</string>
+    <string name="capacitor_serie">Series Capacitor</string>
+    <string name="capacitor_paralelo">Parallel Capacitor</string>
+    <string name="energia_campo_electrico">Electric field energy</string>
+    <string name="ley_ohm">Ohm law</string>
+    <string name="resistividad_electrica">Electrical Resistivity</string>
+    <string name="circuito_serie">Series circuit</string>
+    <string name="circuito_paralelo">Parallel circuit</string>
+    <string name="biot_savart">Biot-Savart Law</string>
+
+    <string name="densidad">Density</string>
+    <string name="peso_especifico">Specific weight</string>
+    <string name="volumen_especifico">Specific Volume</string>
+    <string name="presion_esfuerzo">Pressure and Efforts</string>
+    <string name="principio_pascal">Pascal principle</string>
+    <string name="numero_mach">Mach number</string>
+    <string name="caudal">Caudal</string>
+    <string name="principio_arquimedes">Principio de Arquímedes</string>
+    <string name="ecuacion_fundamental_hidrostatica">Fundamental equation of hydrostatics</string>
+    <string name="numero_reynolds">Reynolds number</string>
+
+    <string name="cinetica_potencial">Kinetic and Potential Energy</string>
+    <string name="trabajo_energia">Work, Energy and Power</string>
+    <string name="movimiento_parabolico">Parabolic movement</string>
+    <string name="fuerza_centripeta">Centripetal force</string>
+    <string name="caida_libre">Freefall</string>
+    <string name="movimiento_proyectiles_angulo">Angle Projectile Movement</string>
+    <string name="movimiento_horizontal_proyectiles">Horizontal Projectile Movement</string>
+    <string name="movimiento_vertical_proyectiles">Vertical Movement of Projectiles</string>
+    <string name="movimiento_rectilineo">Uniform line movement</string>
+    <string name="movimiento_circular">Uniform circular motion</string>
+    <string name="gravitacion_universal">Ley de la Gravitación Universal</string>
+
+    <string name="espectro_electromagnetico">Electromagnetic spectrum</string>
+    <string name="snell_refraccion">Snell or Refraction Law</string>
+    <string name="refraccion">Refractive index</string>
+    <string name="interferencias">Interference</string>
+    <string name="ley_reflexion">Law of Reflection</string>
+    <string name="factor_magnificacion">Magnification Factor</string>
+    <string name="energia_fotonica">Photonic Energy</string>
+
+
+    <string name="calor">Heat</string>
+    <string name="ley_presiones_parciales">Law of Partial Pressures</string>
+    <string name="capacidad_calorifica">Heat capacity</string>
+    <string name="ecuacion_gases_ideales">State equation of ideal gases</string>
+    <string name="boyle_mariotte">Boyle-Mariotte Law</string>
+    <string name="principio_termodinamica">First Law of thermodynamics</string>
+    <string name="dilatacion_lineal">Linear dilation</string>
+    <string name="dilatacion_volumetrica">Volumetric Dilation</string>
+    <string name="dilatacion_superficial">Surface Dilation</string>
+    <string name="dilatacion_liquidos">Liquid Dilation</string>
+    <string name="maquiana_termica">Thermal Machines</string>
+    <string name="procesos_termodinamicos_isotermicos">Thermodynamic and Isothermal Processes</string>
+
+
+    <string name="moda_datos_agrupados">Grouped Data Fashion</string>
+    <string name="media_aritmetica">Arithmetic mean or Average</string>
+
+    <string name="operaciones_conjuntos">Operations with Sets</string>
+
+
+    <string name="numero_avogadro">Avogadros number</string>
+    <string name="disoluciones">Dissolution</string>
+
+    <string name="ley_gases">Gas Laws</string>
+
+    <string name="integral_relacional">Rational integrals</string>
+    <string name="integral_trigonometrica">Trigonometric Integrals</string>
+    <string name="derivada_funciones_exponenciales">Derived from Exponential Functions</string>
+
+    <string name="producto_escalar_dos">Scalar product</string>
+    <string name="coseno_director">Cosine Directors</string>
+    <string name="producto_vectorial_dos">Vector Product</string>
+
+    <string name="reflexion_refraccion">Reflection and Refraction</string>
+    <string name="gas_idel">Ideal Gases</string>
+
+    <string name="ley_boyleMariotte">Ley de Boyle-Mariotte</string>
+
+
+
+
+    <string name="ley_exponentes">Law of the Exponents</string>
+    <string name="producto_notable">Remarkable products</string>
+    <string name="valor_absoluto">Absolute value</string>
+    <string name="binomio_newton">Newton Binomial</string>
+    <string name="numeros_reales">Real numbers</string>
+    <string name="numeros_complejos">Complex numbers</string>
+    <string name="ley_signos">Law of signs</string>
+    <string name="formula_general">General Formula</string>
+    <string name="formula_sumatoria">Summation Formulas</string>
+    <string name="operaciones_numeros">Operations with Complex Numbers</string>
+    <string name="conjugado_numero_complejos">Conjugate of a complex number</string>
+    <string name="representacion_numero">Representation of a Complex Number</string>
+
+
+    <string name="moda_media_mediana">Mean, Median, Mode</string>
+    <string name="desviacion_estandar">Standard deviation</string>
+    <string name="varianza">Variance</string>
+    <string name="probabilidad_condicional">Conditional probability</string>
+    <string name="esperanza_matematica">Mathematical hope</string>
+    <string name="permutaciones">Permutaciones</string>
+    <string name="ordenaciones_combinaciones">Ordinations and Combinations</string>
+
+    <string name="energia_cinetica_potencial">Kinetic and Potential Energy</string>
+    <string name="movimiento_circular_uniforme">Uniform Circular Movement (MCU and MCUV)</string>
+    <string name="movimiento_caida_libre">Freefall Movement</string>
+    <string name="ley_gravitacion_universal">Law of Universal Gravitation</string>
+    <string name="movimiento_proyectiles">Projectile Movement</string>
+    <string name="submit">ENTER</string>
+    <string name="home">Math Quiz</string>
+    <string name="defaultNum">0</string>
+    <string name="timeLeft">Time Left</string>
+    <string name="line">---------------</string>
+    <string name="clear">clear</string>
+    <string name="exit">EXIT</string>
+    <string name="addQuiz">Addition Quiz</string>
+    <string name="subQuiz">Subtraction Quiz</string>
+    <string name="mulQuiz">Multiplication Quiz</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="plus">+</string>
+    <string name="prefijos">"Important Prefixes"</string>
+    <string name="terminos_matematicos">Glossary of mathematical terms</string>
+    <string name="stickerfly">StickerFly \n Stickers and Download WA States</string>
+    <string name ="detalles">More details</string>
+    <string name="suma">Sum</string>
+    <string name="resta">Subtraction</string>
+    <string name="mul">Multiplication</string>
+
+
+    <string name="Sbinomio">Newton\'s binomial is an algorithm that allows to calculate any power of a binomial, for this the binomial coefficients are used, which are nothing more than a succession of combinatorial numbers.</string>
+    <string name="Sbin2">The combinatorial numbers that appear in the formula are precisely the so-called binomial coefficients.</string>
+    <string name="Sform">The general or quadratic formula helps us solve quadratic equations. With her is
+Very easy to find the solution.</string>
+    <string name="Sform2">Remember that the equation must always be equal to 0. Otherwise, you must clear it.</string>
+    <string name="Sgeneral">The law is based on the following: if the signs are equal, the result must be positive. On the other hand, if the signs are different, the result will be negative. In other words it could be said equal signs are added, different signs are subtracted.</string>
+    <string name="Sexponente">It is of great importance to know the different laws that apply to exponents, since these laws will not help in the world of operations with variables and numbers, and especially in notable products and factorization.
+    Of course, these laws apply throughout the world of mathematics. Generally, by simplifying some expression with exponents, these should ultimately be positive.</string>
+    <string name="Scomplejo">Complex numbers are those that result from the sum of a real number and an imaginary number; understood as a real number, one that can be expressed in its entirety (1, 10, 300, etc.), while the imaginary is that number whose square is negative.</string>
+    <string name="sreal">Real numbers are the set that includes natural, integer, rational and irrational numbers. It is represented by the letter R.</string>
+    <string name="snotable">Each remarkable product is a formula that results from a factorization, composed of polynomials of various terms such as binomials or trinomials, called factors.
+
+\ nThe factors are the basis of a power and have an exponent. When the factors multiply, the exponents must be added.</string>
+    <string name="ssuma">The summation is a mathematical operator that allows us to represent very large sums, whether of n or even infinite addends.</string>
+    <string name="ssuma2">Example of how the sum of the first five natural numbers can be expressed: "</string>
+    <string name="sabsoluto">The absolute values ​​of | x | they are real numbers of X and Y, it is a geometric value regardless of its sign, be it positive (+) or negative (-). Thus, for example, 5 is the absolute value of +5 and -5.</string>
+
+    <string name="mcuadrada">A square matrix has the same number of rows (n) and the same number of columns (m).</string>
+    <string name="mdiagonal">It is very useful in linear applications because they significantly reduce the calculation to a simple direct multiplication.</string>
+    <string name="mortogon">There is an orthogonal matrix when said matrix multiplied by its transpose results in the identity matrix. If the inverse of a matrix is ​​equal to that transposed then the original matrix is ​​orthogonal.</string>
+    <string name="msimetrica">Let A be a square matrix of dimension mxm. Then, A is symmetric if equal to its transposed matrix A ^ T, that is, if A = A ^ T.Let A be a square matrix of dimension mxm. Then, A is symmetric if equal to its transposed matrix A ^ T, that is, if A = A ^ T.</string>
+    <string name="sime2">Properties of symmetric matrices:</string>
+    <string name="sime3">-The inverse of a regular symmetric matrix is ​​symmetric.
+\ n-The attached matrix of a symmetric matrix is ​​also symmetric.
+\ n-The sum of symmetric matrices is a symmetric matrix. The product is yes, and only if, it is also commutative.</string>
+    <string name="trans">A transposed matrix is ​​the result of ordering the original matrix by changing rows by columns and columns by rows in a new matrix.</string>
+    <string name="trans2">Generally when we change the rows by columns and the columns by rows we indicate it by adding a superscript T or an apostrophe in the name of the original matrix. If we add superscript T, we must keep in mind that we are working with matrices and that the superscript is not an exponent.</string>
+    <string name="cram">Cramer\'s rule states that the unknown Xj of the system solution, whose coefficients are in column j of A, is:</string>
+    <string name="cram2">Cramer\'s rule provides the solution of systems of determined compatible linear equations (with a single solution) by calculating determinants.</string>
+    <string name="tra">The trace of a matrix is ​​a function defined on the vector space of the square matrices.</string>
+    <string name="mix1">Mixed number or mixed fraction is formed by a natural number and a proper fraction.</string>
+    <string name="mix2">To operate with mixed numbers, they are written in the form of improper fractions and fractions operations are performed. The result is rewritten as a mixed number.</string>
+
+    <string name="puntajess">Score obtained:</string>
+    <string name="intentarlo">TRY AGAIN</string>
+    <string name="salirr">press BACK again to exit</string>
+    <string name="teorema_fundamental">Fundamental Calculation Theorem
+</string>
+    <string name="cambio_variable">Variable Change
+</string>
+    <string name="regla_basica_derivar">Rule to Derive
+</string>
+    <string name="regla_basica_integrar">Rule to Integrate</string>
+
+    <string name="factorizacion">Factorization Formulas</string>
+    <string name="suma_ma">Addition and Subtraction of Matrices
+</string>
+    <string name="multipli_ma">Matrix Multiplication
+</string>
+
+
+    <string name="cadenaCarbo">Carbon chain</string>
+    <string name="tiposCarbono">Types of Carbon</string>
+    <string name="alcanos">Alkanes, Alkenes and Alkynes</string>
+    <string name="hidrocarburos_ciclico">Cyclic hydrocarbons</string>
+    <string name="hidrocarburos_aromantic">Aromantic hydrocarbons</string>
+    <string name="halogenos">Alkyl halides</string>
+
+
+    <string name="quimica_analitica">Analytic chemistry</string>
+    <string name="gase">Gas</string>
+    <string name="quimica_organica">Organic Chemistry
+</string>
+
+    <string name="siguient">Next</string>
+    <string name="part2">Math questions will be asked and you must choose the correct answer.
+</string>
+    <string name="part6">LET\'S GO!</string>
+    <string name="part7">GENIUS</string>
+    <string name="part8">WONDERFUL</string>
+    <string name="part9">"NEW HIGH SCORE!</string>
+    <string name="part10">PRACTICE MORE</string>
+    <string name="part11">FANTASTIC</string>
+    <string name="part12">WOW</string>
+
+    <string name="proo">Download now the PRO version of iFormulas.
+To remove the ads permanently and also:\n\n
+- New topics of various subjects.\n
+- Unlock the game "Guess the Number" and "Time".\n
+- 4 new Conversion units.\n
+        -You support the creator of this project to bring new improved content.
+</string>
+
+    <string name="Cicloalcanos">Cycloalkanes
+</string>
+    <string name="cicloalcanos">Cycloalkanes (also called Alicyclics or Cyclic Alkanes) are organic compounds belonging to the group of Hydrocarbons, that is, they are specifically formed by carbon and hydrogen atoms.</string>
+
+    <string name="repreCiclo">Graphic Representation of Cycloalkanes:
+
+Cycloalkanes are usually represented by simple polygons. At each vertex it is understood that there is a carbon atom with two hydrogens:</string>
+    <string name="nomeCiclo">Cycloalkane Nomenclature:\n\n
+▪They are named as alkanes with the same number of carbons but adding the prefix "Cyclo-":
+Cyclopropane, Cyclobutane, Cyclopentane, Cyclohexane, Cycloheptane ... \n
+▪If they have a radical, the name of the cycle is taken as the main chain:</string>
+    <string name="nomeCiclo20">▪If they have several branched radicals, the name of the cycle is taken as the main chain:\n
+*The name of the chain that forms them is taken\n
+*Their positions are marked with numbers\n
+*They are numbered clockwise or backwards so that the combination of lower numbers results</string>
+
+    <string  name="part5">Your score is up here. You got 1 right out of 1 question. You\'re all set, now start training that (your brain) beast!"</string>
+    <string name="part4">Tap on the answer.</string>
+    <string name="part3">I\'ll help you with this one - since the correct answer is :</string>
+    <string name="welcomeGame">Welcome! There is no time limit here but you do have a stopwatch. You can click on it at any time to stop, restart or quit.</string>
+
+    <string name="record">"NEW HIGHSCORE"</string>
+
+
+    <!--User feedback strings for Time Trials-->
+    <string name="default_time_trials">GO!</string>
+    <string name="good_job">GOOD JOB!</string>
+    <string name="amazing">AMAZING!</string>
+    <string name="fantastic">FANTASTIC!</string>
+    <string name="damn">DAMN!</string>
+    <string name="genius">GENIUS!</string>
+    <string name="sweet">SWEET!</string>
+    <string name="crazy">WOW!</string>
+    <string name="keep">NICE!</string>
+    <string name="unbelievable">NICE!</string>
+    <string name="brilliant">BRILLIANT!</string>
+    <string name="surprised">O_O</string>
+    <string name="on_a_roll">YOU\'RE ON A ROLL!</string>
+    <string name="ohno">Oh no!</string>
+    <string name="next">NEXT!</string>
+    <string name="sad">:(</string>
+
+    <!--score-->
+    <string name="score">SCORE: %1$d</string>
+    <string name="infoMat">🕵️ ‍When you are playing you are also learning, something so simple can help you a lot on a day-to-day basis. That is why this app is recommended by psychologists to improve memory and reaction.
+    \n\nThe best math games for kids and adults.
+\n\nAvailable in English and Spanish. \ Play it Now!</string>
+
+    <string name="descar">Download Now</string>
+
+    <string name="comple">
+This and other excellent applications can be found in the link below totally free, take a look at the apps created by the developer.
+       \n\n * iFormulas - All in one (PRO) \n
+        * StickerFly - Stickers and Download Whats Status \n
+        * MathQuiz - Learn while you play\n
+\nSupport Mexican talent!
+    \nApp developed by only one person.
+</string>
+    <!--quickmath timer-->
+    <string name="timer_quick_math">Time: %1$ds</string>
+    <string name="timer_quick_math_ten_less">Time: 0%1$ds</string>
+    <string name="timer_disabled">Timer Disabled</string>
+    <string name="taponq">DISABLED</string>
+
+    <string name="psi">Pound per square inch (psi)</string>
+
+    <!--quick math-->
+    <string name="sum">%1$d + %2$d = %3$d</string>
+    <string name="sub">%1$d - %2$d = %3$d</string>
+    <string name="mult">%1$d x %2$d = %3$d</string>
+    <string name="div">%1$d / %2$d = %3$d</string>
+
+    <!--high score page-->
+    <string name="highscore">HIGH SCORES</string>
+    <string name="quickMathHighScore">Quick math stats</string>
+    <string name="advancedHighScore">Advanced Stats</string>
+    <string name="qScore">Highest: %1$d of %2$d</string>
+    <string name="intentoPlayed">Highest: 0</string>
+    <string name="aScore">Highest: %1$d of %2$d</string>
+    <string name="timesPlayed">Times played: %1$d</string>
+    <string name="tScore">Highest: %1$d</string>
+    <string name="timeTaken">Time taken: %1$d seconds</string>
+    <string name="aTimeTaken">Time taken: %1$d seconds</string>
+
+    <string name="saludo5">I will help you with this, as this answer is wrong.
+</string>
+    <string name="box">%1$d</string>
+    <string name="pro2">GET THE PRO VERSION</string>
+
+    <string name="aceleracion">Acceleration</string>
+    <string name="mps2">Meter per second squared (m/s²)</string>
+    <string name="pps2">Foot per second squared (ft/s²)</string>
+    <string name="gal">Gal</string>
+    <string name="miligal">Minigal</string>
+    <string name="gravedadEstandar">Standard gravity</string>
+    <string name="fuerzag">G Force (g)</string>
+    <string name="fuerza">Force</string>
+    <string name="densidad2">Density</string>
+    <string name="pro">This unit is only available in the PRO version. \n\nDownload it and make the world kneel before you."</string>
+    <string name="saludo6">Tap on question board to stop and open up the scoreboard. And you are all set!</string>
+    <string name="saludo4">You will get a feedback based on your answer. Tap to proceed."</string>
+    <string name="saludo3">I will help you with this as it is the correct answer</string>
+    <string name="saludo1">Try to answer as many questions as you can before the timer runs out.</string>
+    <string name="saludo2">Discuss the mathematical operation. You can click the question board or the pause button to stop and restart or exit at any time.
+</string>
+
+    <string name="inco1">If A and B are two incompatible events, that is, they cannot occur at the same time, the probability that A occurs or that B occurs will be the sum of the probabilities that each event occurs separately.
+</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resolver.Resolver_problems">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginRight="25dp"
+        app:cardCornerRadius="30dp"
+
+        android:layout_centerInParent="true"
+        android:layout_height="350dp"
+        >
+        <ImageView
+            android:layout_gravity="right"
+            android:id="@+id/cerrarVentana"
+            android:layout_width="30dp"
+            android:src="@drawable/ic_close_black_24dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="7dp"
+            android:elevation="5dp"
+
+            android:layout_height="30dp" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/arriba"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:text="CAMBIAR TEMA"
+                android:textColor="@android:color/black"
+                android:id="@+id/texto"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                />
+        </LinearLayout>
+
+<GridLayout
+    android:layout_marginTop="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:orientation="horizontal"
+    >
+    <Button
+
+        android:id="@+id/btnThemeGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:backgroundTint="@color/colorGreen1"
+
+        android:textStyle="bold"
+        android:background="@drawable/btn_redondo"
+        android:text="VERDE"
+        android:elevation="40dp"
+        android:textColor="@android:color/white" />
+    <Button
+
+        android:id="@+id/btnThemePurple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:backgroundTint="@color/colorPrimaryPurple"
+        android:textStyle="bold"
+        android:background="@drawable/btn_redondo"
+        android:text="PURPURA"
+        android:elevation="40dp"
+        android:textColor="@android:color/white" />
+
+
+</GridLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context=".Matematicas_children.Algebra_children.leyExponentes_children">
+     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="@string/ley_hooke"
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                 android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:padding="10dp"
+                    android:text="Cuando aplicas una fuerza a un muelle, probablemente este se alargará. Si duplicas la fuerza, el alargamiento también se duplicará. Esto es lo que se conoce como la ley de Hooke."
+                 ></TextView>
+
+            <ImageView
+
+                android:id="@+id/hooke"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:adjustViewBounds="true"
+    android:src="@drawable/ley_hooke"></ImageView>
+<TextView
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginLeft="10dp"
+android:layout_marginTop="20dp"
+android:layout_marginRight="10dp"
+android:text="EJEMPLO:"
+android:textColor="@android:color/black"
+android:textSize="17dp"
+android:padding="10dp"
+
+    ></TextView>
+<ImageView
+
+android:id="@+id/hooke2"
+android:layout_width="match_parent"
+android:layout_marginLeft="5dp"
+android:layout_marginBottom="20dp"
+android:layout_marginTop="20dp"
+android:layout_marginRight="5dp"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"
+android:adjustViewBounds="true"
+android:src="@drawable/ley_hooke_ejer"></ImageView>
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+    </RelativeLayout>

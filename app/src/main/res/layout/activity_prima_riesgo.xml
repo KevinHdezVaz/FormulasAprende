@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="Prima de Riesgo"
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:padding="10dp"
+                android:text="La prima de riesgo es el valor agregado que tiene un título por cuenta de su nivel de riesgo, en economía se entiende como la diferencia en la tasa de interés de determinada inversión con menos fiabilidad económica que otra.
+"
+                android:textColor="#292624"
+                android:textSize="18dp"></TextView>
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/prima_riesgo"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/inflac"
+                android:background="@drawable/back"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal"
+
+                ></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:text="Por ejemplo: Si en una apuesta un hombre nos enseñara un vaso con $500 USD y otro con $20 USD y nos dijera que debemos elegir entre alguna de las dos opciones, o, que podemos irnos sin elegir ninguno de los dos vasos con $300 USD garantizados. En este caso, la situación nos estaría presentando una prima de riesgo. Cualquier inversor que no quiera tomar riesgos tomaría los $300 USD sin dudarlo, sin embargo, si el hombre pusiera en un vaso un rollo de $1000 USD, y, en el otro $50 USD y nos ofreciera los mismos $300 USD sin hacer elección, seguramente muchos más inversores estarían dispuestos a tomar el riesgo y elegir uno de los dos vasos.
+
+ "           android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

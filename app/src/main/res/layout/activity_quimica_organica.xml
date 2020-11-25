@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Materias_Quimica.Estequiometria">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:id="@+id/my_toolbar"
+        app:title="Química Organica"
+        app:titleTextColor="@android:color/white"
+        android:layout_height="?actionBarSize">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_below="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linea"
+        android:orientation="vertical"
+        ></LinearLayout>
+
+    <ListView
+        android:layout_below="@id/my_toolbar"
+        android:id="@+id/item2_2"
+        android:layout_width="match_parent"
+        android:layout_above="@id/adView"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_oroginal">
+    </com.google.android.gms.ads.AdView>
+
+
+
+    <include
+        layout="@layout/boton_flotante"></include>
+
+</RelativeLayout>

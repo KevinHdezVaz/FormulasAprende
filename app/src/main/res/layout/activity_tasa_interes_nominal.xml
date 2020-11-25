@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@color/colorPrimary"
+        app:title="Tasa de Interes Nominal"
+        app:titleTextColor="@android:color/white">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/my_toolbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/my_toolbar"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:padding="10dp"
+                android:text="La tasa de interés nominal es la rentabilidad obtenida en una operación financiera que se capitaliza de forma simple, es decir, teniendo en cuenta tan sólo el capital principal.
+
+\n\nLa tasa de interés nominal (TIN) es el coste de oportunidad por no disponer del dinero. "
+                android:textColor="#292624"
+                android:textSize="18dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:padding="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/back"
+                android:text="VF = VP (1 + n * i) "
+                android:textColor="@android:color/black"
+                android:textSize="25dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                    android:textStyle="bold"
+                   android:text="Donde:"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+
+                 android:text="▪ VP: es el valor presente o inicial de la operación."
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                 android:padding="10dp"
+
+                android:text="▪ VF: es el valor futuro obtenido sumados todos los intereses percibidos."
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                 android:padding="10dp"
+
+                android:text="▪ n: número de años considerados en la inversión.
+
+"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:padding="10dp"
+
+                android:text="▪ i: tipo de interés aplicado en la operación
+"
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:text="Para conocer directamente el interés obtenido durante la operación, la fórmula es:"
+                android:textColor="@android:color/black"
+                android:textSize="19dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:padding="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/back"
+                android:text="I= VP(n * i)"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="DONDE:\n\nI = es el interés total nominal obtenido durante toda la operación."
+                android:textColor="@android:color/black"
+                android:textSize="17dp"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
