@@ -1,6 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#4EA56F</color>
+    <color name="colorPrimaryDark">#4EA56F</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorGRadiente">#13978B</color>
+
+    <color name="colorPrimaryPurple">#B53471</color>
+    <color name="colorPrimaryDarkPurple">#6F1E51</color>
+    <color name="colorAccentPurple">#9980FA</color>
+
+    <color name="colorAccent50">#D90026ca</color>
+    <color name="buttonone">#ff5722</color>
+    <color name="buttontwo">#ab47bc</color>
+    <color name="buttonthree">#8bc34a</color>
+    <color name="buttonfour">#2196f3</color>
+
+    <color name="startColor">#006797</color>
+    <color name="endColor">#489855</color>
+    <color name="centerColor">#006797</color>
+    <color name="userRow">#403fc68b</color>
+    <color name="headerColor">#145795</color>
+
+    <color name="colorKota">#6d749f</color>
+    <color name="colorGreen">#abffc0</color>
+    <color name ="colorFuerte">#EE036B67</color>
+    <color name="colorGreenfuerte">#247b37</color>
+    <color name="colorGreen1">#3eb959</color>
+
+    <color name="colorSlide_1">#48b1a7</color>
+    <color name="colorSlide_2">#579604</color>
+    <color name="colorSlide_3">#8bc34a</color>
+    <color name="colorSlide_4">#56ac4d</color>
+
+    <color name="active_dots">#fffafa</color>
+    <color name="inactive_dots">#83878b</color>
+    <color name="holi">#00695C</color>
+
+
+        <color name="md_blue_700">#1976d2</color>
+
+        <color name="md_teal_600">#00897b</color>
+
+
+        <color name="md_black_1000_50">#80000000</color>
+
+    <color name="lightRed">#de6868</color>
+    <color name="naturalTeal">#009688</color>
+    <color name="smallTextColor">#63bfe1</color>
+    <color name="grayC">#aaa</color>
+    <color name="naturalBlack">#263238</color>
+    <color name="equalsButtonOriginalx">#FFDF586F</color>
+    <color name="basic_text">#000000</color>
+
+    <color name="clearView3">#c44a9900</color>
+    <color name="equalsButtonOriginal">#FFDF586F</color>
+
+    //colores
+    <color name="naturalT">#009688</color>
+    <color name="lightRe">#de6869</color>
+    <color name="naturalBlac">#263239</color>
+
+    <color name="textoamar">#63bfe1</color>
+
 </resources>

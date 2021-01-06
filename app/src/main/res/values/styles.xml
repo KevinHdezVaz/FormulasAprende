@@ -1,10 +1,43 @@
 <resources>
+
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/md_teal_600</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHighlight">#00695C</item>
+          </style>
+    <style name="CampoTextoPurpura" parent="Theme.AppCompat.Light">
+
+        <item name="android:textColorHighlight">#00695C</item>
     </style>
+
+
+    <style name="AppThemePurple" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimaryPurple</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkPurple</item>
+        <item name="colorAccent">@color/colorAccentPurple</item>
+    </style>
+    <style name="ScorePopUpAnimation">
+        <item name="android:windowEnterAnimation">@anim/from_right_2</item>
+    </style>
+    <style name="button_one" parent="AppTheme">
+        <item name="colorAccent">@color/buttonone</item>
+    </style>
+
+    <style name="button_two" parent="AppTheme">
+        <item name="colorAccent">@color/buttontwo</item>
+    </style>
+
+    <style name="button_three" parent="AppTheme">
+        <item name="colorAccent">@color/buttonthree</item>
+    </style>
+
+    <style name="button_four" parent="AppTheme">
+        <item name="colorAccent">@color/buttonfour</item>
+    </style>
+
 
 </resources>

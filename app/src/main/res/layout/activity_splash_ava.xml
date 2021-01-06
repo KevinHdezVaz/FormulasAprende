@@ -132,7 +132,7 @@
                     android:fontFamily="@font/quicksand_bold"
                     android:text="\u221A420\u00B2"
                     android:textColor="@android:color/white"
-                    android:textSize="30sp"></TextView>
+                    android:textSize="24dp"></TextView>
 
 
                 <TextView

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context=".SplashScre">
+    <com.scwang.wave.MultiWaveHeader
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        ads:mwhVelocity="5"
+
+        android:id="@+id/wave_header"
+        ></com.scwang.wave.MultiWaveHeader>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+         android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+
+        android:src="@drawable/aprende"
+        android:id="@+id/chido"
+
+        >
+    </ImageView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textColor="@android:color/black"
+             android:gravity="center"
+            android:textSize="20dp"
+        android:id="@+id/chacos"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="DIVERSAS HERRAMIENTAS MATEMÁTICAS EN UNA MISMA APP"
+            >
+
+
+        </TextView>
+    </LinearLayout>
+    <com.scwang.wave.MultiWaveHeader
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:scaleY="-1"
+        ads:mwhVelocity="5"
+
+        android:id="@+id/wave_header2"
+        android:layout_alignParentBottom="true"
+        ></com.scwang.wave.MultiWaveHeader>
+</RelativeLayout>

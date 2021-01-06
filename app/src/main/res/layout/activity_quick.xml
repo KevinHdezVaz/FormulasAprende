@@ -110,8 +110,9 @@
                     android:fontFamily="@font/passion_one_regular"
                     android:gravity="center"
                     android:text="2+2=5"
+                    android:padding="20dp"
                     android:textColor="@android:color/white"
-                    android:textSize="45sp" />
+                    android:textSize="35dp" />
                 <View
                     android:id="@+id/linea2"
                     android:layout_width="match_parent"

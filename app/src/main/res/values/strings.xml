@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">iFormula</string>
+    <string name="app_name">iFormu</string>
     <string name="app_mate">Matemáticas</string>
     <string name="box">%1$d</string>
     <string name="advanced_score">%1$d of %2$d</string>
@@ -217,10 +217,9 @@ que explican los fenómenos naturales. </string>
 
     <string name="default_notification_channel_id" translatable="false">default_channel </string>
     <string name="banner_prueba">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="banner_oroginal">ca-app-pub-3881357943956604/9363645708</string>
-    <string name="interstic_ori">ca-app-pub-3881357943956604/8050564037</string>
-    <string name="interstic_juego">ca-app-pub-3881357943956604/7469283569</string>
-
+    <string name="banner_oroginal">ca-app-pub-6990142911259855/2979431689</string>
+    <string name="interstic_ori">ca-app-pub-6990142911259855/6501881909</string>
+    <string name="interstic_juego">ca-app-pub-6990142911259855/8223841896</string>
 
 
     <string name="triángulo">Triángulo</string>
@@ -665,3 +664,4 @@ Ciclopropano, ciclobutano, ciclopentano, ciclohexano, cicloheptano...\n
 </string>
 
 </resources>
+

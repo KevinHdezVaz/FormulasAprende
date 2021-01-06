@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:fab="http://schemas.android.com/apk/res-auto"
-
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
@@ -20,6 +18,9 @@
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+
+
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             app:cardCornerRadius="10dp"
@@ -66,7 +67,7 @@
                     android:gravity="center_vertical|center_horizontal"
                     android:layout_gravity="center_vertical"
                     android:padding="13dp"
-                    android:text="- iFORMULA -"
+                    android:text="- APRENDE TODO EN UNO -"
                     android:textColor="@android:color/white"
                     android:textSize="25dp"
                     android:textStyle="bold" />
@@ -77,8 +78,9 @@
                     android:layout_height="match_parent"
 
 
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginLeft="60dp"
                     android:layout_marginRight="10dp"
+
                     android:fontFamily="@font/quicksand_medium"
                     android:text="“Nunca consideres el estudio como una obligación, sino como una oportunidad para penetrar \nen el bello y maravilloso mundo del saber”."
                     android:textColor="#000"
@@ -92,35 +94,21 @@
 
 
 
-            <!--
-                        <com.google.android.material.floatingactionbutton.FloatingActionButton
-                            android:id="@+id/fabEstrella"
-                            android:layout_width="match_parent"
-                            android:layout_marginLeft="20dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginBottom="5dp"
-                            android:elevation="10dp"
-                            app:rippleColor="@color/md_teal_600"
-                            app:fabSize="auto"
-                            android:backgroundTint="@android:color/white"
-                            android:src="@drawable/ic_shop_black_24dp"
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fabEstrella"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="5dp"
+                android:elevation="10dp"
+                app:rippleColor="@color/md_teal_600"
+                app:fabSize="auto"
+                android:backgroundTint="@android:color/white"
+                android:src="@drawable/ic_shop_black_24dp"
 
-                            />
-                        <com.google.android.material.floatingactionbutton.FloatingActionButton
-                            android:id="@+id/fabSticker"
-                            android:layout_width="match_parent"
-                            android:layout_marginRight="20dp"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="right|bottom"
-                            android:layout_marginBottom="5dp"
-                            android:elevation="10dp"
-                            app:rippleColor="@color/md_teal_600"
-                            app:fabSize="auto"
-                            android:backgroundTint="@android:color/white"
-                            android:src="@drawable/ic_touch_app_black_24dp"
-                            />
-                            -->
+                />
+
         </androidx.cardview.widget.CardView>
 
 
@@ -174,9 +162,9 @@
             android:fontFamily="@font/quicksand_bold"
 
             android:layout_weight="1"
-            android:background="#F0268B5B"
+            android:background="#009688"
             android:clickable="true"
-            android:backgroundTint="#F0268B5B"
+            android:backgroundTint="#009688"
             android:foreground="?selectableItemBackground"
             android:onClick="cargarInicio"
             android:padding="20dp"
