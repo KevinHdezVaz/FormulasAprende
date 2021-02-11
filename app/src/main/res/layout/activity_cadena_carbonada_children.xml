@@ -32,14 +32,25 @@
 
             <ImageView
 
-                android:id="@+id/cadenacar"
+            android:id="@+id/cadenacar"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:src="@drawable/cadena_carbonada1"></ImageView>
+
+            <ImageView
+
+                android:id="@+id/cadenacar2"
                 android:layout_width="match_parent"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:adjustViewBounds="true"
-                android:src="@drawable/cadena_carbonada"></ImageView>
+                android:src="@drawable/cadena_carbonada2"></ImageView>
 
             <TextView
                 android:layout_width="match_parent"

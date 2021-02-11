@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import uk.co.senab.photoview.PhotoViewAttacher;
 
 public class cadenaCarbonada_children extends AppCompatActivity {
-    ImageView imagen;
+    ImageView imagen,image2;
     PhotoViewAttacher photo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,5 +37,8 @@ public class cadenaCarbonada_children extends AppCompatActivity {
         });
         imagen =(ImageView)findViewById(R.id.cadenacar);
         photo = new PhotoViewAttacher(imagen);
+
+        image2 =(ImageView)findViewById(R.id.cadenacar2);
+        photo = new PhotoViewAttacher(image2);
     }
 }

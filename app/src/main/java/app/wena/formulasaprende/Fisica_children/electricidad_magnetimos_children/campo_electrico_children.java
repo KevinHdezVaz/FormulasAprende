@@ -11,8 +11,7 @@ import android.widget.ImageView;
 import uk.co.senab.photoview.PhotoViewAttacher;
 
 public class campo_electrico_children extends AppCompatActivity {
-    ImageView imagen;
-    PhotoViewAttacher photo;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +29,5 @@ public class campo_electrico_children extends AppCompatActivity {
                 //regresar...
                 finish();
             }
-        });
-        imagen =(ImageView)findViewById(R.id.campo_electricoo);
-        photo = new PhotoViewAttacher(imagen); }
+        });  }
 }

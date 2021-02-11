@@ -236,7 +236,7 @@ public class LauncherActivity2 extends AppCompatActivity {
     public void mostrarInfoPRO() {
 
 
-        epicDialog.setContentView(R.layout.custompro);
+        epicDialog.setContentView(R.layout.custompro2);
         cerrar = (ImageView) epicDialog.findViewById(R.id.cerrarVentana);
         botonvam = (Button) epicDialog.findViewById(R.id.botonvamo2);
         btnvam2 = (Button) epicDialog.findViewById(R.id.botonvamo3);
@@ -254,7 +254,7 @@ public class LauncherActivity2 extends AppCompatActivity {
         botonvam.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://play.google.com/store/apps/details?id=com.finals.kas.pro";
+                String url = "https://play.google.com/store/apps/details?id=app.tercer.juegofinal";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
@@ -264,7 +264,7 @@ public class LauncherActivity2 extends AppCompatActivity {
         btnvam2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String url = "https://appgallery.huawei.com/#/app/C103488475";
+                String url = "https://appgallery.huawei.com/#/app/C103448627";
                 Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(url));
                 startActivity(i);
